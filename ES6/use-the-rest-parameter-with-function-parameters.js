@@ -6,3 +6,6 @@ const sum = (...args) => {
   return total;
 }
 console.log(sum(2,3,4,));
+
+const numOfParameters = (...args) => "You passed " + args.length + " Parameters";
+console.log(numOfParameters("sdf", {}, 2));
